@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.holdercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.holder {
+    border-radius: 0.8px;
+    height: 5px;
+    width: 23px;
+    background-color: grey;
+    border-top: 0.1px solid black;
+}
+
+.blub {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    border: 0.1px solid black;
+}
+
+.blub-container {
+    display: flex;
+    justify-content: center;
+}
+
+.phone-charging-circet {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    right: -70px;
+    top: 169.5px;
+    border-bottom-left-radius: 20px;
+    border-top: none;
+}
+
+.charger-pin {
+    width: 20px;
+    height: 10px;
+    background-color: #111;
+    position: absolute;
+    right: 90px;
+}
+
+.phone-charge-indicate {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.phone-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 100px;
+}
+
+.phone {
+    border: 1px solid black;
+    width: 47px;
+    height: 85px;
+    margin: 5px;
+}
+
+.phone ion-icon {
+    display: none;
+}
+
+.btn {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 86.5px;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    background-color: gren;
+    flex-direction: column;
+}
+
+.tv-outside-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tv-container {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.tv {
+    border: 1px solid black;
+    width: 187px;
+    height: 85px;
+    margin: 5px;
+}
+
+.tv ion-icon {
+    display: none;
+}
+
+.tv-btn {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 86.5px;
+}
+
+.btn-tv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 187px;
+    flex-direction: column;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.btn-stand-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-stand-container ion-icon {
+    position: absolute;
+    left: 430px;
+    font-size: 30px;
+}
+
+.tv-stand {
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+}
+
+.light {
+    width: 50px;
+    height: 100px;
+}
+
+.light-border {
+    cursor: pointer;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.charge-indicater {
+    width: 50px;
+    height: 100px;
+}
+
+.charge-indicater-border {
+    cursor: pointer;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+
+.tv-indicater {
+    width: 50px;
+    height: 100px;
+}
+
+.tv-indicater-border {
+    cursor: pointer;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1px;
+    margin: 20px;
+}
+
+@media only screen and (max-width:1120px) {
+    .btn-stand-container ion-icon {
+        left: 300px;
+    }
+}
+
+@media only screen and (max-width:855px) {
+    .btn-stand-container ion-icon {
+        left: 180px;
+    }
+}
+
+@media only screen and (max-width:615px) {
+    .btn-stand-container ion-icon {
+        left: 60px;
+    }
+}
+
+@media only screen and (max-width:522px) {
+    .box {
+        width: 400px;
+        height: 100px;
+    }
+}
