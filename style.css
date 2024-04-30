@@ -214,11 +214,17 @@ body {
     .btn-stand-container ion-icon {
         left: 300px;
     }
+    body {
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width:855px) {
     .btn-stand-container ion-icon {
         left: 180px;
+    }
+    body {
+        overflow: hidden;
     }
 }
 
@@ -226,11 +232,17 @@ body {
     .btn-stand-container ion-icon {
         left: 60px;
     }
+    body {
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width:522px) {
     .box {
         width: 400px;
         height: 100px;
+    }
+    body {
+        overflow: hidden;
     }
 }
